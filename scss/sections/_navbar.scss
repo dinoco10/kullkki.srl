@@ -1,0 +1,52 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapbar{
+  background-image: linear-gradient(-180deg, #d98bed, #4358cf);
+}
+  
+
+.nav-link{
+    font-size: 18px;
+    margin: 3px;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 500;
+    letter-spacing: 1,8px;
+    line-height: 45px;
+    color: $primary!important;
+    box-sizing: border-box;
+    border-bottom: solid #2a073a;
+    transition: .9s;
+}    
+
+.edificio{
+  margin-right: 9px;
+}
+
+.persona{
+  margin-right: 12px;
+}
+
+.mail{
+  margin-right: 10px;
+}
+
+
+.nav-item{
+    padding-left: 15px;
+}
+
+.nav-item:hover{
+  color: #9120c5;
+}
+
+
+.futer{
+  padding-top: 125px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.85em;
+  margin: auto;
+}

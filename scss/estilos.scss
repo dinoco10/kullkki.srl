@@ -1,0 +1,15 @@
+//use custom bootrsap, new scss file
+@import "./custom";
+
+
+
+//Importo los componentes
+@import "./components/animations";
+@import "./components/buttons";
+@import "./components/mixins";
+@import "./components/tipografia";
+
+@import "./sections/contacto";
+@import "./sections/nosotros";
+@import "./sections/servicios";
+@import "./sections/navbar";

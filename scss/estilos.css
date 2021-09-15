@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.btn-rounded {
+  position: relative;
+  font-family: 500;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../imagenes/man-1351346.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.muchotexto {
+  font-family: 'Roboto', sans-serif;
+  width: 45%;
+  font-weight: 500;
+  padding: 5.2rem 5.2rem;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: justify;
+  text-shadow: 1px 2px 2px wheat, 0 0 1em #212529, 0 0 0.1em #343a40;
+}
+
+.wrapbar {
+  background-color: wheat;
+}
+
+.nav-link {
+  font-size: 1.1em;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: 500;
+  letter-spacing: 1,8px;
+  line-height: 45px;
+  color: #212529 !important;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: rgba(245, 230, 202, 0.473);
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 15px;
+}
+/*# sourceMappingURL=estilos.css.map */

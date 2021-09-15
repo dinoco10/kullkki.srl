@@ -1,0 +1,16 @@
+.fondo{
+    background-image: url("../imagenes/peoplework1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    @include fuente;
+    line-height: 2rem;
+    border:solid $success;  
+}
+
+h3{
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 2,8rem;
+  }
+

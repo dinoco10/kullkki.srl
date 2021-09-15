@@ -1,0 +1,23 @@
+//Hay error en las funciones de los botones, no me funciona el hover
+
+
+.btn-rounded-pill{
+    background-color: $success;
+}
+
+.btn-rounded-pill{
+    color: black;
+}
+
+.btn-rounded-pill::after, .btn-rounded-pill::before{
+    transition: transform 0.3 ease;
+}
+
+
+.btn-rounded-pill:hover::after{
+    transform: translate(-5px, -5px)
+}
+
+.btn-rounded-pill:hover::before{
+    transform: translate(5px, 5px)
+}

@@ -1,0 +1,35 @@
+.img-fluid{
+    width: 185%;
+    height: 15rem;
+    object-fit: cover;
+    padding:0px;
+    margin: 0px;
+}
+
+.card{
+    width: 75%;
+    padding:0px;
+    margin: 0px;
+    transition: transform 3s;
+    .card-text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+}
+
+.admin{
+    line-height: 5px;
+}
+
+.list-group-flush{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    counter-reset: section;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; // reset padding because ul and ol
+    margin-bottom: 0;
+    line-height: 20px;
+}
+

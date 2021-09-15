@@ -1,0 +1,28 @@
+//Es estilado de la pagina principal
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.muchotexto{
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+    font-weight: 400;
+    padding: 5.2rem 5.2rem;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: justify;
+    text-shadow: 1px 2px 2px wheat, 0 0 1em $secondary, 0 0 0.1em $primary;
+    
+}
+
+.contenedor{
+    min-height: 100vh;
+    background-image:url("../imagenes/man-1351346.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+

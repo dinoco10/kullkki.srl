@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.wrapbar {
+  animation-name: navbar;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in; }
+
+.btn-rounded-pill {
+  background-color: #d98bed; }
+
+.btn-rounded-pill {
+  color: black; }
+
+.btn-rounded-pill::after, .btn-rounded-pill::before {
+  transition: transform 0.3 ease; }
+
+.btn-rounded-pill:hover::after {
+  transform: translate(-5px, -5px); }
+
+.btn-rounded-pill:hover::before {
+  transform: translate(5px, 5px); }
+
+.fondo {
+  background-image: url("../imagenes/peoplework1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  line-height: 2rem;
+  border: solid #d98bed; }
+
+h3 {
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 2px;
+  font-size: 2,8rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.muchotexto {
+  font-family: 'Roboto', sans-serif;
+  width: 45%;
+  font-weight: 400;
+  padding: 5.2rem 5.2rem;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: justify;
+  text-shadow: 1px 2px 2px wheat, 0 0 1em #4358cf, 0 0 0.1em #212529; }
+
+.contenedor {
+  min-height: 100vh;
+  background-image: url("../imagenes/man-1351346.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-fluid {
+  width: 185%;
+  height: 15rem;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px; }
+
+.card {
+  width: 75%;
+  padding: 0px;
+  margin: 0px;
+  transition: transform 3s; }
+  .card .card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; }
+
+.admin {
+  line-height: 5px; }
+
+.list-group-flush {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  counter-reset: section;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 20px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.wrapbar {
+  background-image: linear-gradient(-180deg, #d98bed, #4358cf); }
+
+.nav-link {
+  font-size: 18px;
+  margin: 3px;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: 500;
+  letter-spacing: 1,8px;
+  line-height: 45px;
+  color: #212529 !important;
+  box-sizing: border-box;
+  border-bottom: solid #2a073a;
+  transition: .9s; }
+
+.edificio {
+  margin-right: 9px; }
+
+.persona {
+  margin-right: 12px; }
+
+.mail {
+  margin-right: 10px; }
+
+.nav-item {
+  padding-left: 15px; }
+
+.nav-item:hover {
+  color: #9120c5; }
+
+.futer {
+  padding-top: 125px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.85em;
+  margin: auto; }
